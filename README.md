@@ -26,21 +26,21 @@ implement [barryvdh Laravel debugbar](https://github.com/barryvdh/laravel-dompdf
 
 * partials : /resources/views/partials
 
-  *layout
+  * layout
   
     *navbar.blade.php
     
     *errors.blade.php
     
-  *auth
+  * auth
   
     *login.blade.php
     
     *register.blade.php
     
-*home : /resources/views/home.blade.php
+* home : /resources/views/home.blade.php
 
-
+#Important! 
 Issue report and pull requests are welcome!
 
 I like to invite you to visit my website on [Jefferochoa.com.ve](http://jefferochoa.com.ve)
