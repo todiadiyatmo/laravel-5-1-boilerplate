@@ -28,15 +28,15 @@ implement [barryvdh Laravel debugbar](https://github.com/barryvdh/laravel-dompdf
 
   * layout
   
-    *navbar.blade.php
+    * navbar.blade.php
     
-    *errors.blade.php
+    * errors.blade.php
     
   * auth
   
-    *login.blade.php
+    * login.blade.php
     
-    *register.blade.php
+    * register.blade.php
     
 * home : /resources/views/home.blade.php
 
