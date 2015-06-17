@@ -10,24 +10,36 @@ A simple base Laravel 5.1 project using bootstrap.
 
 #About
 
--This project uses Bootstrap 3 
--[barryvdh Laravel debugbar](https://github.com/barryvdh/laravel-dompdf)
+This project uses Bootstrap 3
+
+implement [barryvdh Laravel debugbar](https://github.com/barryvdh/laravel-dompdf)
 
 #auth
--To register go to path/auth/register
--To login go to path/auth/login
--logout in path/auth/logout
+
+- To register go to path/auth/register
+- To login go to path/auth/login
+- logout in path/auth/logout
 
 #bootstrap templating
-*base layout: /resources/views/app.blade.php
-*partials : /resources/views/partials
+
+* base layout: /resources/views/app.blade.php
+
+* partials : /resources/views/partials
+
   *layout
+  
     *navbar.blade.php
+    
     *errors.blade.php
+    
   *auth
+  
     *login.blade.php
+    
     *register.blade.php
+    
 *home : /resources/views/home.blade.php
+
 
 Issue report and pull requests are welcome!
 
