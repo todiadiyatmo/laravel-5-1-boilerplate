@@ -19,15 +19,15 @@ A simple base Laravel 5.1 project using bootstrap.
 -logout in path/auth/logout
 
 #bootstrap templating
--base layout: /resources/views/app.blade.php
--partials : /resources/views/partials
-  -layout
-    -navbar.blade.php
-    -errors.blade.php
-  -auth
-    -login.blade.php
-    -register.blade.php
--home : /resources/views/home.blade.php
+*base layout: /resources/views/app.blade.php
+*partials : /resources/views/partials
+  *layout
+    *navbar.blade.php
+    *errors.blade.php
+  *auth
+    *login.blade.php
+    *register.blade.php
+*home : /resources/views/home.blade.php
 
 Issue report and pull requests are welcome!
 
