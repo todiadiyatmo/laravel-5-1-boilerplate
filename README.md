@@ -11,9 +11,10 @@ A simple base Laravel 5.1 project using bootstrap.
 
 #About
 
-This project uses Bootstrap 3
-
-implement [barryvdh Laravel debugbar](https://github.com/barryvdh/laravel-dompdf)
+- This project uses Bootstrap 3
+- implement [barryvdh Laravel debugbar](https://github.com/barryvdh/laravel-dompdf)
+- Laravel collective 5.1
+- en/es language files
 
 #auth
 
