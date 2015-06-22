@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9563bf3a95ad6ee424b0d1ceb41156c8",
+    "hash": "1d22eaea64386434ca0de6b3cdbb924c",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -1056,6 +1056,50 @@
                 "shell"
             ],
             "time": "2015-03-26 18:43:54"
+        },
+        {
+            "name": "styde/blade-pagination",
+            "version": "5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StydeNet/blade-pagination.git",
+                "reference": "3154d3a7fba118f76b5c1e3e9cca9bedc02e7b0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StydeNet/blade-pagination/zipball/3154d3a7fba118f76b5c1e3e9cca9bedc02e7b0f",
+                "reference": "3154d3a7fba118f76b5c1e3e9cca9bedc02e7b0f",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Styde\\BladePagination\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Duilio Palacios",
+                    "email": "admin@styde.net",
+                    "homepage": "http://styde.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel's pagination with Blade templating support",
+            "homepage": "http://github.com/StydeNet/blade-pagination",
+            "keywords": [
+                "blade",
+                "pagination"
+            ],
+            "time": "2015-06-21 14:08:31"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3141,7 +3185,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "barryvdh/laravel-debugbar": 20
+        "barryvdh/laravel-debugbar": 20,
+        "styde/blade-pagination": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
