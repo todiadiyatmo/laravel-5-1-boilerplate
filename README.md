@@ -3,16 +3,17 @@ A simple base Laravel 5.1 project using bootstrap.
 
 #Install
 1. clone this project in the root directory
-2. >> `composer update`
-3. >> `php artisan key:generate`
+2. >> `$ composer update`
+3. >> `$ php artisan key:generate`
 4. setup your database credentials (using .env file)
-5. >> php `php artisan migrate`
+5. >> php `$ php artisan migrate`
 5. Have fun
 
 #About
 
 - This project uses Bootstrap 3
 - implement [barryvdh Laravel debugbar](https://github.com/barryvdh/laravel-dompdf)
+- implement [StydeNet blade pagination](https://github.com/StydeNet/blade-pagination)
 - Laravel collective 5.1
 - en/es language files
 
