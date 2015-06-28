@@ -20,6 +20,7 @@
 	@include('partials.layout.errors')
     @yield('content')
     <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     {!! Html::script('assets/js/bootstrap.min.js') !!}
 </body>
 </html>

@@ -20,6 +20,7 @@
                             </div>
                             <div>                            
                                 {!! Form::submit(trans('form.login.submit'),['class' => 'btn btn-primary']) !!}
+                                <a href="{{ url('password/email') }}">Forgot password ?</a>
                             </div>
                         {!! Form::close() !!}
                     </div> 

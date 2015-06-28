@@ -21,6 +21,14 @@ return [
     	'title'		=> 'Sign-Up',
     	'submit' 	=> 'Send'
     ],
+    'reset' => [
+        'title'     => 'Create a new password',
+        'submit'    => 'Reset password'
+    ],
+    'email' => [
+        'title'     => 'Reset your password',
+        'submit'    => 'Send Password Reset Link'
+    ],
     	
     'label'	=> [
     	'email'					=> 'Email',
