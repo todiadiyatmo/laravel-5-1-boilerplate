@@ -2,7 +2,7 @@
         @if (Session::has('errors'))
 		    <div class="alert alert-warning" role="alert">
 			<ul>
-	            <strong>Oops! Something went wrong : </strong>
+	            <strong>{{ trans('notifications.alert') }}</strong>
 			    @foreach ($errors->all() as $error)
 				<li>{{ $error }}</li>
 		            @endforeach
