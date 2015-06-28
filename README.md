@@ -3,7 +3,7 @@ A simple base Laravel 5.1 project using bootstrap.
 
 #Install
 1. clone this project in the root directory
-2. >> `$ composer update`
+2. >> `$ composer install`
 3. >> `$ php artisan key:generate`
 4. setup your database credentials (using .env file)
 5. >> php `$ php artisan migrate`
