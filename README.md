@@ -3,7 +3,7 @@ A simple base Laravel 5.1 project using bootstrap.
 
 #Install
 1. clone this project in the root directory
-2. >> `$ composer update`
+2. >> `$ composer install`
 3. >> `$ php artisan key:generate`
 4. setup your database credentials (using .env file)
 5. >> php `$ php artisan migrate`
@@ -26,22 +26,23 @@ A simple base Laravel 5.1 project using bootstrap.
 #bootstrap templating
 
 * base layout: /resources/views/app.blade.php
-
 * partials : /resources/views/partials
-
   * layout
-  
     * navbar.blade.php
-    
     * errors.blade.php
-    
   * auth
-  
     * login.blade.php
-    
     * register.blade.php
-    
 * home : /resources/views/home.blade.php
+
+#Passwrod recovery
+You can to setup your email credentials to use this feature
+by looking the official  [Laravel 5.1 mail documentation](http://laravel.com/docs/5.1/mail).
+please specify email and sender name on the .env file
+`
+SENDER_NAME=noreply
+SENDER_ADDRES=no@reply.com
+`
 
 #Important! 
 Issue report and pull requests are welcome!
