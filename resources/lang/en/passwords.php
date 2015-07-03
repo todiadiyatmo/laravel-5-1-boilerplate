@@ -18,6 +18,7 @@ return [
     'token' => 'This password reset token is invalid.',
     'sent' => 'We have e-mailed your password reset link!',
     'reset' => 'Your password has been reset!',
-    'credentials' => 'These credentials do not match our records.'
+    'credentials' => 'These credentials do not match our records.',
+    'forgot'   => 'Forgot password ?'
 
 ];

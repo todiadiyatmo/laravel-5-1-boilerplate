@@ -23,6 +23,8 @@ return [
 
     "reset"    => "¡Tu contraseña ha sido restablecida!",
 
-    'credentials' => 'Esta información no coincide con nuestros registros.'
+    'credentials' => 'Esta información no coincide con nuestros registros.',
+
+    'forgot'   => 'olvidaste tu contraseña ?'
 
 ];
