@@ -21,6 +21,14 @@ return [
     	'title'		=> 'Registro',
     	'submit' 	=> 'Enviar'
     ],
+    'reset' => [
+        'title'     => 'Crear nueva contraseña',
+        'submit'    => 'Restablecer contraseña'
+    ],
+    'email' => [
+        'title'     => 'Restablecer tu contraseña',
+        'submit'    => 'Enviar Link para Restablecer Contraseña'
+    ],
     	
     'label'	=> [
     	'email'					=> 'Email',
