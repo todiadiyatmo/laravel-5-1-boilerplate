@@ -22,6 +22,7 @@ A simple base Laravel 5.1 project using bootstrap.
 - To register go to path/auth/register
 - To login go to path/auth/login
 - logout in path/auth/logout
+- reset email go to path/password/email
 
 #bootstrap templating
 
@@ -33,6 +34,9 @@ A simple base Laravel 5.1 project using bootstrap.
   * auth
     * login.blade.php
     * register.blade.php
+  * reset password
+    * reset.blade.php
+
 * home : /resources/views/home.blade.php
 
 #Passwrod recovery
@@ -40,8 +44,8 @@ You can to setup your email credentials to use this feature
 by looking the official  [Laravel 5.1 mail documentation](http://laravel.com/docs/5.1/mail).
 please specify email and sender name on the .env file
 `
-SENDER_NAME=noreply
-SENDER_ADDRES=no@reply.com
+SENDER_ADDRES=youremail@email.com
+SENDER_MAIL=sender_mail
 `
 
 #Important! 
