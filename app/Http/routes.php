@@ -34,3 +34,8 @@ Route::post('password/email', ['as' => 'password/postEmail', 'uses' => 'Auth\Pas
 // Password reset routes...
 Route::get('password/reset/{token}', 'Auth\PasswordController@getReset');
 Route::post('password/reset', ['as' => 'password/postReset', 'uses' =>  'Auth\PasswordController@postReset']);
+
+Route::group(['prefix' => 'api'], function()
+{
+    Route::post('authenticate', 'Auth\JWTController@authenticate');
+});

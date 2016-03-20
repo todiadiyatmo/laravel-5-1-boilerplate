@@ -10,7 +10,8 @@
         "laravelcollective/html": "5.1.*",
         "barryvdh/laravel-debugbar": "^2.0@dev",
         "styde/blade-pagination": "5.1.*@dev",
-        "guzzlehttp/guzzle": "~5.3"
+        "guzzlehttp/guzzle": "~5.3",
+        "tymon/jwt-auth": "0.5.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

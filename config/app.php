@@ -145,7 +145,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
-        Styde\BladePagination\ServiceProvider::class
+        Styde\BladePagination\ServiceProvider::class,
+        'Tymon\JWTAuth\Providers\JWTAuthServiceProvider'
 
     ],
 
@@ -197,6 +198,8 @@ return [
         'Form'      => 'Collective\Html\FormFacade',
         'Html'      => 'Collective\Html\HtmlFacade',
         'Debugbar'  => 'Barryvdh\Debugbar\Facade',
+        'JWTAuth'   => 'Tymon\JWTAuth\Facades\JWTAuth',
+        'JWTFactory'=> 'Tymon\JWTAuth\Facades\JWTFactory'
     ],
 
 ];
