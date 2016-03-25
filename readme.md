@@ -6,8 +6,9 @@ A simple base Laravel 5.1 project using bootstrap.
 2. >> `$ composer install`
 3. >> `$ php artisan key:generate`
 4. setup your database credentials (using .env file)
-5. >> php `$ php artisan migrate`
-5. Have fun
+5. Upgrade to 5.1.11 -> https://laravel.com/docs/5.1/upgrade#upgrade-5.1.11
+6. >> php `$ php artisan migrate`
+7. Have fun
 
 #About
 
